@@ -12,6 +12,7 @@
 body{
     background-color: var(--black);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 
 }
 
@@ -38,4 +39,25 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/*main filme */
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/assets/spiderman.jpg') ;
+    height: 500px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.title{
+font-size: 50px;
+}
+
+.main-movie p{
+    margin-bottom: 10px;
 }

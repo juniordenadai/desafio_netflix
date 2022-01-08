@@ -72,6 +72,11 @@ margin-top: 15%;
 
 }
 
+.main-movie .container
+{
+    width: 60%;
+}
+
 .button {
     background-color: rgba(0,0,0,.50);
     border: none;
@@ -90,4 +95,14 @@ margin-top: 15%;
 
 .button i{
     margin-right: 5px;
+}
+
+.movie-box{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-movies{
+    margin-top: 8px;
 }

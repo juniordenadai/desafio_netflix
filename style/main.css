@@ -11,7 +11,7 @@
 
 body{
     background-color: var(--black);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 
 }
@@ -20,7 +20,7 @@ header .logo{
     margin-left: 5px;
     color: var(--red);
     font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 header .container{
@@ -37,6 +37,7 @@ header nav a{
 
 }
 
+
 header nav a:hover{
     color: #fff;
 }
@@ -51,9 +52,6 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-
-
 }
 
 .main-movie .container
@@ -105,4 +103,18 @@ margin-top: 15%;
 
 .carousel-movies{
     margin-top: 8px;
+}
+
+.block-modal{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color:var(--black);
+}
+
+.modal-title{
+    color: var(--red);
+}
+.image-modal{
+    margin-right: 5px;
 }
